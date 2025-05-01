@@ -240,7 +240,7 @@
         for (const [method, _] of Object.entries(instructionalMethods)) {
             const methodItem = document.createElement('div');
             methodItem.className = 'method-item';
-            methodItem.innerHTML = `<label for="method_${method}">${method}</label><input type="number" id="method_${method}" step="0.1" min="0" value="0">`;
+            methodItem.innerHTML = `<label for="method_${method}">${method}</label><input type="number" id="method_${method}" step="1" min="0" value="0">`;
             methodContainer.appendChild(methodItem);
         }
 
